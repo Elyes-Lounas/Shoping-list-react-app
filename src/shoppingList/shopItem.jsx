@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTrash } from "react-icons/fa";
+
 export default function ShopItem({ list, iBoughtItem, setList }) {
   let removeItem = (index) => {
     let newList = [...list];
